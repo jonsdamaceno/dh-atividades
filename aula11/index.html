@@ -4,36 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Aula 11 - Pizza&Front</title>
 </head>
 <body>
     <header>
-        <img src="img/VectorPizza (1).jpg">
-        <h1>Pizza&Front</h1>
+        <div class="logo">
+            <img src="img/VectorPizza (1).jpg">
+            <h1 class="titulo1">Pizza
+                <span class="titulo2">&</span>
+                <span class="titulo3">Front</span>
+            </h1>
+        </div>
+
+        <nav class="nav-header">
+            <a href="#">Home</a>
+            <a href="#">Ranking</a>
+            <a href="#">Promoção</a>
+            <a href="#">Contato</a>
+        </nav>
     </header>
 
     <main>
 
         <section>
 
-            <div>
-                <img src="img/delivery.jpg">
-                <h3></h3>        
+            <div class="delivery">
+                <h2>Envio grátis 
+                    <span class="titulo-meio">comprando</span>
+                    2 pizzas            
+                </h2>        
             </div>
 
-            <div>
-                <h3></h3>
-                <h3></h3>
-                <ol>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>                
-                </ol>
-
-                <img src="img/PizzaFalling.jpg">
+            <div class="cardapio">
+                <h2>Cardápio de pizzas</h2>
+                <div class="cardapio-itens">
+                    <div class="lista-top5">
+                        <h3>TOP 5</h3>
+                        <ol>
+                            <li>Frango e Catupiry</li>
+                            <li>Hawaiana</li>
+                            <li>Bolonhesa</li>
+                            <li>Fugazzeta</li>
+                            <li>Calabresa</li>                
+                        </ol>
+                    </div>
+                    <img src="img/PizzaFalling.jpg" class="ingredientes">
+                </div>
             </div>
 
         </section>
@@ -41,7 +61,20 @@
     </main>
     
     <footer>
+        <nav class="nav-footer">
+            <a href="#">Home</a>
+            <a href="#">Ranking</a>
+            <a href="#">Promoção</a>
+            <a href="#">Contato</a>
+        </nav>
 
+        <div class="logo">
+            <img src="img/VectorPizza (1).jpg">
+            <h1 class="titulo1">Pizza
+                <span class="titulo2">&</span>
+                <span class="titulo3">Front</span>
+            </h1>
+        </div>
     </footer>
 
 </body>
