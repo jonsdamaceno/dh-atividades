@@ -5,3 +5,360 @@
     padding: 0;
 }
 
+.top-bar{
+    background-color: #222222;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.area-select{
+    width: 102px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: #F0A83E;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: sticky;
+    top: 0;
+}
+
+.logo-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.logo-header h1{
+    color: #3C2313;
+    font-size: 20px;
+}
+
+.logo-header h1 span{
+    color: #FFFFFF;
+}
+
+.nav-header{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.nav-header a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slide{
+    background-image: url("../img/comedouro-slide.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.slide div{
+    width: 365px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.slide h2{
+    background-color: white;
+    color: #3C2313;
+    width: 365px;
+    height: 55px;
+    border-radius: 5px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.slide h4{
+    color: #3C2313;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.slide button{
+    background-color: #F0A83E;
+    width: 140px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.destaque{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.destaque img{
+    width: 100px;
+    height: 100px;
+}
+
+.destaque h2{
+    color:#3C2313;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.destaque h4{
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.cards-conteiner{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    background-color: #FBFAF6;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.card h4{
+    color: #3C2313;
+}
+
+.card span{
+    color: #F0A83E;
+}
+
+.sec-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato{
+    width: 340px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato h3{
+    color: #3C2313;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+.contato input{
+    background-color: #3C2313;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    padding-left: 14px;
+}
+
+.contato div button{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+#limpar{
+    background-color: #8A8787;
+}
+
+#enviar{
+    background-color: #F0A83E;
+}
+
+footer{
+    width: 100%;
+    height: 365px;
+    margin-top: 70px;
+}
+
+.newsletter{
+    background-color: #F0A83E;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter span{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.newsletter span h2{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.newsletter input{
+    background-color: white;
+    width: 270px;
+    height: 40px;
+    color: #A0A0A0;
+    font-size: 10px;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+
+.newsletter button{
+    background-color: #3C2313;
+    width: 70px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-right: 50px;
+}
+
+.infos{
+    background-color: #3C2313;
+    width: 100%;
+    height: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.icones{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-card{
+    width: 210px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-card h3{
+    width: 140px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.info-card h3 span{
+    color: #8A8787;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.logo-footer h1{
+    color: white;
+    font-size: 20px;
+}
+
+.logo-footer h1 span{
+    color: #F0A83E;
+}
+
+#down-bar{
+    background-color: #222222;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+}

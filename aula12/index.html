@@ -17,22 +17,17 @@
         <span>Grandes ofertas em comedouros</span>
 
         <div class="area-select">
-            <select name="idioma">
-                <option value="pt">Portugês</option>
-                <option value="es">Espanhol</option>
-                <option value="in">Inglês</option>
-            </select>
-
-            <select name="moeda">
-                <option value="real">BRL$</option>
-                <option value="euro">EUR$</option>
-                <option value="dolar">USD$</option>
-            </select>
+            <span>Português
+                <img src="img/seta-desconto.png">
+            </span>
+            <span>BRL$
+                <img src="img/seta-desconto.png">
+            </span>
         </div>
     </div>
 
     <header>
-        <div class="logo">
+        <div class="logo-header">
             <img src="img/cat.png">
             <h1>Front
                 <span>Cat&Dog</span>
@@ -61,83 +56,102 @@
     </header>
 
     <main>
-        <section class="sec-slide">
+        <section>
             <div class="slide">
-                 <h2>É um prazer te ter aqui!</h2>
-                 <p>Comedouro com desconto!</p>
-                 <button>COMEDOUROS</button>
+                <div>
+                    <h2>É um prazer te ter aqui!</h2>
+                    <h4>Comedouro com desconto!</h4>
+                    <button>COMEDOUROS</button>
+                </div>
             </div>
         </section>
 
-        <section class="sec-destaques">
-            <div class="desconto">
+        <section>
+            <div class="destaque">
                 <img src="img/pata2.png">
                 <h2>Produtos Destacados</h2>
-                <ul>
-                    <li>
-                        <a href="#">Comedouros</a>
-                    </li>
-                    <li>
-                        <a href="#">Acessórios</a>
-                    </li>
-                    <li>
-                        <a href="#">Comida</a>
-                    </li>
-                </ul>
+                <h4>Comedouros - Acessórios - Comida</h4>
             </div>
         </section>
 
-        <section class="sec-cards">
+        <section>
             <div class="cards-conteiner">
                 <div class="card">
                     <img src="img/petisco-carne.png">
-                    <p>Petisco churrasquito</p>
-                    <p class="valor">R$150</p>
+                    <h4>Petisco churrasquito</h4>
+                    <span>R$150</span>
                 </div>
 
                 <div class="card">
                     <img src="img/comedouro-main.png">
-                    <p>Comedouro para cachorro</p>
-                    <p class="valor">R$250</p>
+                    <h4>Comedouro para cachorro</h4>
+                    <span>R$250</span>
                 </div>
 
                 <div class="card">
                     <img src="img/petisco-osso.png">
-                    <p>Petisco Ossinho</p>
-                    <p class="valor">R$650</p>
+                    <h4>Petisco Ossinho</h4>
+                    <span>R$650</span>
                 </div>
             </div>
         </section>
 
         <section class="sec-contato">
-            <h2>Contato</h2>
             <div class="contato">
-                <p>Nome e Sobrenome</p>
-                <p>Seu e-mail</p>
-                <p>Telefone</p>
-            </div>
-            <div class="buttons">
-                <button id="limpar">Limpar</button>
-                <button id="enviar">Enviar</button>
+                <h3>Contato</h3>
+                <input type="text" name="nome" placeholder="Nome e Sobrenome">
+                <input type="email" name="email" placeholder="Seu e-mail">
+                <input type="tel" name="telefone" placeholder="Telefone">
+                <div>
+                    <button id="limpar">Limpar</button>
+                    <button id="enviar">Enviar</button>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <section class="footer">
-            <div class="newsletter"></div>
+        <section>
+            <div class="newsletter">
+                <span>
+                    <img src="img/inscreva-se.png" alt="carta">
+                    <h2>Inscreva-se para mais novidades</h2>
+                </span>
+                <input type="email" name="email" placeholder="Informe seu e-mail">
+                <button>Enviar</button>
+            </div>
             <div class="infos">
                 <div class="icones">
+                    <div class="info-card">
+                        <img src="img/local.png">
+                        <h3>Localização
+                            <span>Nossa Senhora do Socorro</span>
+                        </h3>
+                    </div>
+
+                    <div class="info-card">
+                        <img src="img/telefone.png">
+                        <h3>Teelfone
+                            <span>(XX)XXXXX-XXXX</span>
+                        </h3>
+                    </div>
+
+                    <div class="info-card">
+                        <img src="img/email.png">
+                        <h3>e-Mail
+                            <span>insiraemail@dominio.com</span>
+                        </h3>
+                    </div>
                 </div>
-                <div class="logo">
+                <div class="logo-footer">
                     <img src="img/cat.png">
                     <h1>Front
                         <span>Cat&Dog</span>
                     </h1>
                     <img src="img/dog.png">
-                </div
+                </div>
             </div>
-            <div class="down-bar"></div>
+            <span id="down-bar">Todos os direitos reservados a Jônatas Santos Damaceno</span>
         </section>
     </footer>
 
