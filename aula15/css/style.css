@@ -393,6 +393,7 @@ footer{
 
     .slide div{
         align-items: flex-end;
+        margin-left: 30px;
     }
 
     .slide div button{
@@ -450,6 +451,7 @@ footer{
 
     .input-footer input{
         width: 250px;
+        margin-left: 30px
     }
 
     .input-footer button{
