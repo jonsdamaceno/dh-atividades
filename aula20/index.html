@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Aula 20 - GameShop</title>
 </head>
 
@@ -19,13 +19,15 @@
                 <span>Shop</span>
             </h1>
         </div>
-        <nav>
-            <a href="#">Categorias</a>
-            <a href="#">Ofertas</a>
-            <a href="#">Vestuário</a>
-            <a href="#">Favoritos</a>
-        </nav>
-        <a href="#" id="shop-car"></a>
+        <div class="links-header">
+            <nav>
+                <a href="#" target="_blank">Categorias</a>
+                <a href="#" target="_blank">Ofertas</a>
+                <a href="#" target="_blank">Vestuário</a>
+                <a href="#" target="_blank">Favoritos</a>
+            </nav>
+            <a href="#" id="shop-car"></a>
+        </div>
     </header>
 
     <main>
@@ -45,23 +47,29 @@
             <div class="card-container">
                 <div class="card-jogo">
                     <img src="img/detroitgame.png" alt="Detroit - Become Human">
-                    <h4>R$ 3.200,00</h4>
-                    <p>12 x R$266,66 sem juros</p>
-                    <span>Envio grátis</span>
+                    <div class="preço-jogo">
+                        <h4>R$ 3.200,00</h4>
+                        <p>12 x R$266,66 sem juros</p>
+                        <span>Envio grátis</span>
+                    </div>
                 </div>
     
                 <div class="card-jogo">
                     <img src="img/fifa21game.png" alt="FIFA 21">
-                    <h4>R$ 3.200,00</h4>
-                    <p>12 x R$266,66 sem juros</p>
-                    <span>Envio grátis</span>
+                    <div class="preço-jogo">
+                        <h4>R$ 3.200,00</h4>
+                        <p>12 x R$266,66 sem juros</p>
+                        <span>Envio grátis</span>
+                    </div>                    
                 </div>
     
                 <div class="card-jogo">
                     <img src="img/mortalkombatgame.png" alt="Mortal Kombat II">
-                    <h4>R$ 3.200,00</h4>
-                    <p>12 x R$266,66 sem juros</p>
-                    <span>Envio grátis</span>
+                    <div class="preço-jogo">
+                        <h4>R$ 3.200,00</h4>
+                        <p>12 x R$266,66 sem juros</p>
+                        <span>Envio grátis</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -69,14 +77,9 @@
         <section class="estrelas-sec">
             <h3>Produtos Estrelas</h3>
 
-            <div clas="estrelas-containter">
-                <div class="card-estrelas">
-                    <h4>Cadeiras Gamer</h4>
-                </div>
-
-                <div class="card-estrelas">
-                    <h4>Computadores</h4>
-                </div>
+            <div class="estrelas-container">
+                <a href="#" target="_blank" id="cadeiras">Cadeiras Gamer</a>
+                <a href="#" target="_blank" id="pc">Computadores</a>
             </div>
         </section>
     </main>
@@ -97,6 +100,8 @@
                 <a href="#"></a>
             </div>
         </div>
+
+        <
     </footer>
     
 </body>
