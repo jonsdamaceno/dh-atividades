@@ -1,0 +1,30 @@
+@import "reset";
+@import "color";
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: red;
+}
+
+@mixin important-text{
+    color: $myPink;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.text{
+    @include important-text();
+    background-color: yellow;
+}
+
+.btn{
+    padding: 10px 20px;
+    color: black;
+}
+
+.btn-DH{
+    @extend .btn;
+    background-color: $myPink;
+}

@@ -1,0 +1,27 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: red;
+}
+
+.text {
+  color: #ee82ee;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: yellow;
+}
+
+.btn, .btn-DH {
+  padding: 10px 20px;
+  color: black;
+}
+
+.btn-DH {
+  background-color: #ee82ee;
+}/*# sourceMappingURL=style.css.map */

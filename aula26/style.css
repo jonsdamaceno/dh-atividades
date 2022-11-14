@@ -1,0 +1,18 @@
+@import url('./fonts/HWYGCOND.TTF');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'HWYGCOND', sans-serif;
+}
+
+.firstItem{
+    width: 136px;
+    height: 144px;
+}
+
+.cards img{
+    width: 250px;
+    height: 180px;
+}

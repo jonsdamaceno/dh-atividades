@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamon', 'Roboto', sans-serif;
+}
+
+:root {
+    --color-header: #1d728f;
+    --color-main: #86c6db;
+    --color-aside: #ffddc3;
+    --color-footer: seagreen;
+    --text-geral: white;
+    --text-main: black;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 110px 4fr;
+    grid-template-rows: 0.5fr 4fr;
+    grid-template-areas: 
+        'header header'
+        'aside main'
+    ;
+}
+
+header{
+    height: 100px;
+    grid-area: header;
+    background-color: var(--color-header);
+    color: var(--text-geral);
+}
+
+h1{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside{
+    grid-area: aside;
+    background-color: var(--color-aside);
+    color: var(--text-geral);
+    padding: 20px;
+}
+
+nav{
+    height: 180px;
+}
+
+nav ul{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: var(--text-geral);
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+main{
+    grid-area: main;
+    background-color: var(--color-main);
+    color: var(--text-main);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding: 40px;
+}
+
+main img{
+    width: 100%;
+    height: 65%;
+}
+
+h2{
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+p{
+    line-height: 22px;
+}
