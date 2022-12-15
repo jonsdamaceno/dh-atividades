@@ -9,10 +9,10 @@ class Aluno { //criação de objeto
     calcMedia () { //criação método calcMedia
         let nota = 0;
 
-        for (let i = 0; i < (this.notas).lenght; i++) {
+        for (let i = 0; i < (this.notas).length; i++) {
             nota += (this.notas)[i];
         }
-        return(nota / (this.notas).lenght).toFixed(1);
+        return(nota / (this.notas).length).toFixed(1);
     }
     faltas () { // criação método faltas+1
         return this.nFaltas += 1;
@@ -50,7 +50,7 @@ const curso = { // PASSO 3
         if (aluno.nFaltas == curso.maxFaltas && nota >= curso.notaAprovacao * 1.1) {
             let aprovado = true
             return aprovado
-        } else if (alunos.nFaltas < curso.maxFaltas && nota >= curso.notaAprovacao) {
+        } else if (aluno.nFaltas < curso.maxFaltas && nota >= curso.notaAprovacao) {
         return true
         } else{
         return false
@@ -67,9 +67,9 @@ const curso = { // PASSO 3
       }
 }
 
-curso.addAluno('Jonas', 7, [5.3,9,7])
+curso.addAluno('Jonas', 7, [5.3,9,7])// adição de aluno
 
-console.log(curso.aprovacao(aluno3))
-console.log(curso.listaAlunos)
+console.log(curso.aprovacao(aluno3)) //aprovação individual: true e false
+console.log(curso.listaAlunos) //lista de alunos
 
-console.log(curso.resultadoAlunos)
+console.log(curso.resultadoAlunos()) // retorna array de booleanos
